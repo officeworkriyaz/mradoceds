@@ -2,7 +2,7 @@ import {
 	createOptimizedPicture
 } from "../../scripts/aem.js";
 
-export defaut async function decorate(block) {
+export default async function decorate(block) {
 	fetchData(block);
 }
 
