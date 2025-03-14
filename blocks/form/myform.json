@@ -207,30 +207,7 @@
       "ID": "",
       "Fieldset": ""
     },
-    {
-      "Name": "select",
-      "Type": "select",
-      "Label": "Country",
-      "Placeholder": "",
-      "Value": "Germany",
-      "Options": "USA, Germany, Switzerland, Canada",
-      "Mandatory": "",
-      "Style": "",
-      "ID": "",
-      "Fieldset": ""
-    },
-    {
-      "Name": "externalSelect",
-      "Type": "select",
-      "Label": "State",
-      "Placeholder": "Select a state...",
-      "Value": "",
-      "Options": "https://main--helix-block-collection--adobe.hlx.page/block-collection/form.json?sheet=states",
-      "Mandatory": "",
-      "Style": "",
-      "ID": "",
-      "Fieldset": ""
-    },
+   
     {
       "Name": "submit",
       "Type": "submit",
