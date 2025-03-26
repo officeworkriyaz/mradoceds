@@ -1,0 +1,28 @@
+{
+  "project": "AEM Boilerplate",
+  "editUrlLabel": "AEM Editor",
+  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open"
+  "plugins": [
+	  {
+		"id": "lighthouse-devtools",
+		"title": "Lighthouse (DevTools)",
+		"environments": ["edit","preview"],
+		"passReferrer": true,
+		"passConfig": true,
+		"excludePaths": [
+			"**/artices/**"
+		],
+		"event": "click",
+		"callback": "() => { window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: 123 })); setTimeout(() => { chrome.devtools.panels.activate('lighthouse'); }, 500); }",
+		"isPalette": true,
+		"section": "tools"
+	  },
+	  {
+		"id": "contact-us",
+		"title": "Contact Us",
+		"url": "https://myfeature1--mradoceds--officeworkriyaz.aem.live/articles/article-1",
+		"isPalette": true,
+		"paletteRect": "top: 50px; right: 50px: right: 10px; left: auto; width: 400px; height: calc(100vh-60px)"
+	  }
+  ]
+}
