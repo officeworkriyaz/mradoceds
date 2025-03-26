@@ -1,4 +1,4 @@
-import { fetchPlaceholders } from '../../scripts/aem.js';
+import fetch from 'node-fetch';
 
 export default async function decorate(block) {
   fetchData(block);
