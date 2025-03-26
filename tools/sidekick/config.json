@@ -1,7 +1,6 @@
 {
   "project": "AEM Boilerplate",
   "editUrlLabel": "AEM Editor",
-  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open"
   "plugins": [
 	  {
 		"id": "lighthouse-devtools",

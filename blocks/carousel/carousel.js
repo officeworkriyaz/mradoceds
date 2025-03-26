@@ -42,6 +42,7 @@ function showSlide(block, slideIndex = 0) {
   });
 }
 
+
 function bindEvents(block) {
   const slideIndicators = block.querySelector('.carousel-slide-indicators');
   if (!slideIndicators) return;
